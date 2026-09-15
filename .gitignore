@@ -1,0 +1,19 @@
+# 本地工作区数据（记忆/会话），不上云
+.workbuddy/
+
+# 本地验证探针（含本机绝对路径），不上云
+_cmp/
+
+# 本地兼容副本（非交付物）
+merged-terminal.html
+
+# 部署凭证 —— 绝对不得提交
+_pat.txt
+*.pat
+
+# 备份与临时产物
+*.bak
+*.log
+node_modules/
+.DS_Store
+Thumbs.db
